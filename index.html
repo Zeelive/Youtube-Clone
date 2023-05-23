@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube Clone</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header__left">
+          <i id="menu" class="material-icons">menu</i>
+          <img src="youtube.png" class="youtube" alt="">
+          <h3>TheTube</h3>
+        </div>
+  
+        <div class="header__search">
+          <form action="https://www.youtube.com/results">
+            <input type="text" placeholder="Search" name="search_query" />
+            <button><i class="material-icons">search</i></button>
+          </form>
+        </div>
+  
+        <div class="header__icons">
+          <i class="material-icons display-this">search</i>
+          <i class="material-icons">videocam</i>
+          <i class="material-icons">apps</i>
+          <i class="material-icons">notifications</i>
+          <i class="material-icons display-this">account_circle</i>
+        </div>
+    </div>
+
+    <div class="mainBody">
+        
+        <div class="sidebar">
+            <div class="sidebar__categories">
+
+              <div class="sidebar__category">
+                <i class="material-icons">home</i>
+                <span>Home</span>
+              </div>
+              
+              <div class="sidebar__category">
+                <i class="material-icons">local_fire_department</i>
+                <span>Trending</span>
+              </div>
+
+              <div class="sidebar__category">
+                <i class="material-icons">subscriptions</i>
+                <span>Subcriptions</span>
+              </div>
+
+            </div>
+
+            <hr />
+
+            <div class="sidebar__categories">
+
+              <div class="sidebar__category">
+                <i class="material-icons">library_add_check</i>
+                <span>Library</span>
+              </div>
+
+              <div class="sidebar__category">
+                <i class="material-icons">history</i>
+                <span>History</span>
+              </div>
+
+              <div class="sidebar__category">
+                <i class="material-icons">play_arrow</i>
+                <span>Your Videos</span>
+              </div>
+
+              <div class="sidebar__category">
+                <i class="material-icons">watch_later</i>
+                <span>Watch Later</span>
+              </div>
+
+              <div class="sidebar__category">
+                <i class="material-icons">thumb_up</i>
+                <span>Liked Videos</span>
+              </div>
+
+            </div>
+            <hr />
+        </div>
+
+        <div class="videos">
+            <h1>Recommended</h1>
+
+            <div class="videos__container">
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/eoOaKN4qCKw/sddefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img src="https://yt3.ggpht.com/nTF9n3fkaEcIcpJ0XY4aEKLx5iu_vbjfhPJRFmQ5b9reVOhrG8kv6bosigUszt-p0jdG5K_dyw=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                      </div>
+                      <div class="title">
+                        <h3>
+                            FAST X | Final Trailer
+                        </h3>
+                        <a href="https://www.youtube.com/@TheFastSaga">The Fast Saga</a>
+                        <span>8.4M Views • 7 Days Ago</span>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/YpTmcCBBdTE/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img src="http://aninex.com/images/srvc/web_de_icon.png" alt="" />
+                      </div>
+                      <div class="title">
+                        <h3>Build A Password Generator with React JS - Beginners Tutorial</h3>
+                        <a href="">FutureCoders</a>
+                        <span>10M Views • 3 Months Ago</span>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/46cXFUzR9XM/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/ytc/AAUvwnh53ZRIGnyzC28QrfuggCINb3cfNbNWo4Uc6qR9=s48-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>Bella Ciao Full Song | La Casa De Papel | Money Heist | Netflix India</h3>
+                        <a href="">Netflix</a>
+                        <span>10M Views • 11 Months Ago</span>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/d2na6sCyM5Q/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/ytc/AAUvwnhESPVEatju_1yE-03-KLeSrnSLc5yy0RcvhPd5Lg=s48-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>DON'T EVER GIVE UP - Elon Musk (Motivational Video)</h3>
+                        <a href=""> Chispa Motivation</a>
+                        <span>10M Views • 1 Month Ago</span>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/2Ji-clqUYnA/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/ytc/AAUvwniaHN7MZyFEiNvdHuKMzIWnDF604Z2--O4GCMq-FA=s48-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>Javascript Fundamentals</h3>
+                        <a href="">Coding Addict</a>
+                        <span>179K • 8 Months Ago</span>
+                      </div>
+                    </div>
+                </div>
+        
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/3PHXvlpOkf4/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/ytc/AAUvwnifaQZvAunS0OFb2y_cieoVjLCVjqQW8Exf3BC1gg=s48-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>Build 15 JavaScript Projects - Vanilla JavaScript Course</h3>
+                        <a href=""> freeCodeCamp.org </a>
+                        <span>470K Views • 8 Months Ago</span>
+                      </div>
+                    </div>
+                </div>
+        
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/CVClHLwv-4I/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/ytc/AAUvwnhIz_0Su6HhW6Ym50QCroJCAnF10X9xnnMDboN2=s48-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>Build Real Time Face Detection With JavaScript</h3>
+                        <a href=""> Web Dev Simplified </a>
+                        <span>875K Views • 1 Year Ago</span>
+                      </div>
+                    </div>
+                </div>
+        
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/FVcW9Aj5R2g/sddefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/qR1d1r4lBnPCFz8rMoXzA8EW2fJzQeZBvyecQPrhDp8ThVt8H67IDDJU27IJE_NWxkg0ApMRmFE=s88-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>Johnny Drille - Believe Me (Official Music Video)</h3>
+                        <a href="https://www.youtube.com/channel/UCr2CrvCc_tu8dkcmik0SLeA"> Johnny Drille</a>
+                        <span>2.8M Views • 3 Weeks Ago</span>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/eoOaKN4qCKw/sddefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img src="https://yt3.ggpht.com/nTF9n3fkaEcIcpJ0XY4aEKLx5iu_vbjfhPJRFmQ5b9reVOhrG8kv6bosigUszt-p0jdG5K_dyw=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                      </div>
+                      <div class="title">
+                        <h3>
+                            FAST X | Final Trailer
+                        </h3>
+                        <a href="https://www.youtube.com/@TheFastSaga">The Fast Saga</a>
+                        <span>8.4M Views • 7 Days Ago</span>
+                      </div>
+                    </div>
+                </div>
+        
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/YpTmcCBBdTE/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img src="http://aninex.com/images/srvc/web_de_icon.png" alt="" />
+                      </div>
+                      <div class="title">
+                        <h3>Build A Password Generator with React JS - Beginners Tutorial</h3>
+                        <a href="">FutureCoders</a>
+                        <span>10M Views • 3 Months Ago</span>
+                      </div>
+                    </div>
+                </div>
+        
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/46cXFUzR9XM/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/ytc/AAUvwnh53ZRIGnyzC28QrfuggCINb3cfNbNWo4Uc6qR9=s48-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>Bella Ciao Full Song | La Casa De Papel | Money Heist | Netflix India</h3>
+                        <a href="">Netflix</a>
+                        <span>10M Views • 11 Months Ago</span>
+                      </div>
+                    </div>
+                </div>
+        
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/d2na6sCyM5Q/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/ytc/AAUvwnhESPVEatju_1yE-03-KLeSrnSLc5yy0RcvhPd5Lg=s48-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>DON'T EVER GIVE UP - Elon Musk (Motivational Video)</h3>
+                        <a href=""> Chispa Motivation</a>
+                        <span>10M Views • 1 Month Ago</span>
+                      </div>
+                    </div>
+                </div>
+        
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/2Ji-clqUYnA/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/ytc/AAUvwniaHN7MZyFEiNvdHuKMzIWnDF604Z2--O4GCMq-FA=s48-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>Javascript Fundamentals</h3>
+                        <a href="">Coding Addict</a>
+                        <span>179K • 8 Months Ago</span>
+                      </div>
+                    </div>
+                </div>
+        
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/3PHXvlpOkf4/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/ytc/AAUvwnifaQZvAunS0OFb2y_cieoVjLCVjqQW8Exf3BC1gg=s48-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>Build 15 JavaScript Projects - Vanilla JavaScript Course</h3>
+                        <a href=""> freeCodeCamp.org </a>
+                        <span>470K Views • 8 Months Ago</span>
+                      </div>
+                    </div>
+                </div>
+        
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/CVClHLwv-4I/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/ytc/AAUvwnhIz_0Su6HhW6Ym50QCroJCAnF10X9xnnMDboN2=s48-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>Build Real Time Face Detection With JavaScript</h3>
+                        <a href=""> Web Dev Simplified </a>
+                        <span>875K Views • 1 Year Ago</span>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/FVcW9Aj5R2g/sddefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/qR1d1r4lBnPCFz8rMoXzA8EW2fJzQeZBvyecQPrhDp8ThVt8H67IDDJU27IJE_NWxkg0ApMRmFE=s88-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>Johnny Drille - Believe Me (Official Music Video)</h3>
+                        <a href="https://www.youtube.com/channel/UCr2CrvCc_tu8dkcmik0SLeA"> Johnny Drille</a>
+                        <span>2.8M Views • 3 Weeks Ago</span>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/eoOaKN4qCKw/sddefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img src="https://yt3.ggpht.com/nTF9n3fkaEcIcpJ0XY4aEKLx5iu_vbjfhPJRFmQ5b9reVOhrG8kv6bosigUszt-p0jdG5K_dyw=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                      </div>
+                      <div class="title">
+                        <h3>
+                            FAST X | Final Trailer
+                        </h3>
+                        <a href="https://www.youtube.com/@TheFastSaga">The Fast Saga</a>
+                        <span>8.4M Views • 7 Days Ago</span>
+                      </div>
+                    </div>
+                </div>
+        
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/YpTmcCBBdTE/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img src="http://aninex.com/images/srvc/web_de_icon.png" alt="" />
+                      </div>
+                      <div class="title">
+                        <h3>Build A Password Generator with React JS - Beginners Tutorial</h3>
+                        <a href="">FutureCoders</a>
+                        <span>10M Views • 3 Months Ago</span>
+                      </div>
+                    </div>
+                </div>
+        
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/46cXFUzR9XM/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/ytc/AAUvwnh53ZRIGnyzC28QrfuggCINb3cfNbNWo4Uc6qR9=s48-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>Bella Ciao Full Song | La Casa De Papel | Money Heist | Netflix India</h3>
+                        <a href="">Netflix</a>
+                        <span>10M Views • 11 Months Ago</span>
+                      </div>
+                    </div>
+                </div>
+        
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/d2na6sCyM5Q/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/ytc/AAUvwnhESPVEatju_1yE-03-KLeSrnSLc5yy0RcvhPd5Lg=s48-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>DON'T EVER GIVE UP - Elon Musk (Motivational Video)</h3>
+                        <a href=""> Chispa Motivation</a>
+                        <span>10M Views • 1 Month Ago</span>
+                      </div>
+                    </div>
+                </div>
+        
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/2Ji-clqUYnA/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/ytc/AAUvwniaHN7MZyFEiNvdHuKMzIWnDF604Z2--O4GCMq-FA=s48-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>Javascript Fundamentals</h3>
+                        <a href="">Coding Addict</a>
+                        <span>179K • 8 Months Ago</span>
+                      </div>
+                    </div>
+                </div>
+        
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/3PHXvlpOkf4/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/ytc/AAUvwnifaQZvAunS0OFb2y_cieoVjLCVjqQW8Exf3BC1gg=s48-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>Build 15 JavaScript Projects - Vanilla JavaScript Course</h3>
+                        <a href=""> freeCodeCamp.org </a>
+                        <span>470K Views • 8 Months Ago</span>
+                      </div>
+                    </div>
+                </div>
+        
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/CVClHLwv-4I/maxresdefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/ytc/AAUvwnhIz_0Su6HhW6Ym50QCroJCAnF10X9xnnMDboN2=s48-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>Build Real Time Face Detection With JavaScript</h3>
+                        <a href=""> Web Dev Simplified </a>
+                        <span>875K Views • 1 Year Ago</span>
+                      </div>
+                    </div>
+                </div>
+        
+                <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="https://img.youtube.com/vi/FVcW9Aj5R2g/sddefault.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="https://yt3.ggpht.com/qR1d1r4lBnPCFz8rMoXzA8EW2fJzQeZBvyecQPrhDp8ThVt8H67IDDJU27IJE_NWxkg0ApMRmFE=s88-c-k-c0x00ffffff-no-rj"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <h3>Johnny Drille - Believe Me (Official Music Video)</h3>
+                        <a href="https://www.youtube.com/channel/UCr2CrvCc_tu8dkcmik0SLeA"> Johnny Drille</a>
+                        <span>2.8M Views • 3 Weeks Ago</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+  
+</body>
+</html>
